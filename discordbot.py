@@ -2,6 +2,7 @@ import discord
 import config
 from discord import utils
 from discord.ext import commands
+import os
 
 class MyClient(discord.Client):
     #Проверка на подключение бота
